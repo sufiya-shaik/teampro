@@ -1,1 +1,2 @@
 teampro is a repo to change code by all developers
+changes in code should be merged
