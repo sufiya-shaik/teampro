@@ -1,0 +1,30 @@
+pipeline {
+    
+    agent any
+    
+    stage ('clone the form git') {
+        steps {
+        echo "cloning the code from git repo"
+        https://github.com/sufiya-shaik/teampro.git
+        
+        }
+    }
+}
+
+    stage ('Build'){
+        steps{
+            echo "building the java code for using maven"
+            
+        }
+    }
+    stage ('test'){
+        steps{
+            echo "testing the code"
+        }
+    }
+    stage ('deploy'){
+        steps{
+        echo "deploying the code"
+        
+    }
+}
